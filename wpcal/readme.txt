@@ -3,7 +3,7 @@ Contributors: wpcal, amritanandh, midhubala, dark-prince, yuvarajsenthil
 Tags: meeting, appointment, scheduling, booking, interview, calendly, google-calendar, google-meet, google-hangouts, zoom, webinar, icloud-calendar, outlook-calendar, office365-calendar, microsoft-teams, webex, gotomeeting
 Requires at least: 5.0
 Tested up to: 6.4.1
-Stable tag: 0.9.5.9
+Stable tag: 0.9.5.10
 Requires PHP: 7.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -121,6 +121,9 @@ We reply within 1-2 business days and always strive for first contact resolution
 8. Reschedule booking widget with old booking details.
 
 == Changelog ==
+
+= v0.9.5.10 - Nov 18th 2025 =
+* Improvement: Security improvements.
 
 = v0.9.5.9 - Mar 22nd 2024 =
 * Improvement: Security improvements.

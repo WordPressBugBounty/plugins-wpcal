@@ -47,7 +47,7 @@ class WPCal_Constants {
 	}
 
 	private static function versions() {
-		self::define('WPCAL_VERSION', '0.9.5.9');
+		self::define('WPCAL_VERSION', '0.9.5.10');
 	}
 
 	private static function debug() {

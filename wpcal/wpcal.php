@@ -3,7 +3,7 @@
  * Plugin Name: WPCal.io
  * Plugin URI: https://wpcal.io/
  * Description: Allow your customer to book appoinments online without back-and-forth emails.
- * Version: 0.9.5.9
+ * Version: 0.9.5.10
  * Author: Revmakx
  * Author URI: https://wpcal.io
  * Developer: WPCal

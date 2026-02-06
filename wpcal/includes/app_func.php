@@ -1001,6 +1001,10 @@ function wpcal_service_booking_shortcode_cb($attr) {
 		return;
 	}
 
+	if (!is_numeric($service_id)) {
+		return;
+	}
+
 	$license_info = WPCal_License::get_account_info();
 	if (empty($license_info) || !isset($license_info['email']) || !isset($license_info['status'])) {
 		return;
@@ -1043,7 +1047,7 @@ function wpcal_service_booking_shortcode_cb($attr) {
 	// wpcal_load_trigger is fallback for popup which keep moving/insert or replace the html
 	$return = '
 	<script type="text/javascript">
-	var wpcal_booking_service_id = "' . $service_id . '";
+	var wpcal_booking_service_id = "' . esc_attr($service_id) . '";
 	var wpcal_post_id = "' . $post_id . '";
 	try{
 		var wpcal_load_trigger = new Event(\'wpcal_load_booking_widget\');
